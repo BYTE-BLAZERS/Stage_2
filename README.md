@@ -22,8 +22,8 @@ Stage - 2
 5. Feature Encoding
 > - Untuk memudahkan membangun model machine learning di tahap selanjutnya, kami akan melakukan convert ‘Yes/No’ menjadi 1/0 (binary) pada kolom GraduateOrNot, FrequentFlyer, EverTravelledAbroad dan ChronicDiseases
 > - Untuk Employment Type kami akan mengubah 1/0 (binary) menjadi:
-> - - Government Sector : 1
-> - - Private Sector : 0
+> - 1. Government Sector : 1
+> - 2. Private Sector : 0
 
 6. Feature Transformation
 > - dalam membangun model Machine Learning, kami menambah feature baru berupa pengelompokan annual income untuk membantu analisis data. Pada Feature CatAnIncome terdapat 3 pengelompokan berdasarkan AnnualIncome, yaitu :
